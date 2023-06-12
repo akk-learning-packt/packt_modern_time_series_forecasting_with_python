@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "packt-modern-time-series-forecasting-with-python"
+version = "0.1.0"
+description = "Modern Time Series Forecasting with Python"
+authors = ["Arun Kr. Khattri <arunkhattri@outlook.com>"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "packt_modern_time_series_forecasting_with_python"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1, <3.11"
+plotly = "^5.15.0"
+pandas = "^2.0.2"
+numpy = "^1.24.3"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+holidays = "^0.26"
+seaborn = "^0.12.2"
+statsmodels = "^0.14.0"
+statsforecast = "^1.5.0"
+missingno = "^0.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+jupyterlab = "^4.0.2"
+tqdm = "^4.65.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
