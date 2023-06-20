@@ -12,6 +12,7 @@
 
 !*.py
 !*.png
+!*.ipynb
 !pyproject.toml
 !poetry.lock
 
